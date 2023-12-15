@@ -1,0 +1,103 @@
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    height: 100%;
+    font-family: "Roboto", "sans-serif";
+}
+
+.link {
+    text-decoration: none;
+}
+.link:hover {
+    color: #ff0000;
+}
+
+.link:focus {
+    color: #00ff00;
+}
+
+.link:focus:hover {
+    color:#ffff00
+}
+
+.title-1 {
+    font-family: "Verdana";
+}
+
+.paragraph-1 {
+    font-style: italic;
+}
+
+.paragraph-2 {
+    font-weight: 700;
+}
+
+.paragraph-3 {
+    font-style: italic;
+    font-size: 20px;
+    font-family: "Verdana", "sans-serif";
+}
+
+.link-1 {
+    color: #00ff00;
+}
+
+.link-2 {
+    color: #ff0000;
+}
+
+.link-2:visited {
+    color: #00ffff;
+}
+
+.link-3 {
+    text-decoration: none;
+}
+
+.link-3:hover,
+.link-3:visited{
+    text-decoration: underline;
+}
+
+.link-4 {
+    background-color: #00ffff;
+    text-decoration: none;
+    transition: 0.25s all ease-in-out;
+}
+
+.link-4:hover {
+    background-color: #ffff00;
+}
+
+.unordered-list {
+    list-style-type: inside;
+   //*list-style-image: url(test.png);*//
+}
+
+.table {
+    border: 2px solid #00ff00;
+    width: 100%;
+    border-collapse: collapse;
+}
+.table th,
+.table td {
+    padding: 15px;
+    text-align: right;
+    background-color: #ffff00;
+}
+
+.custom-element {
+    margin: 100px 0;
+    padding: 50px 0;
+}
+
+.span-1 {
+    background-color: #00ff00;
+}
+
+.span-2 {
+    background-color: #ff0000;
+}
